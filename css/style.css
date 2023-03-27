@@ -1,0 +1,209 @@
+/* Exercicio 1 */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: darkgrey;
+}
+.ex1{
+    float: right;
+    padding:2px;
+}
+h1{
+    margin-left: 50px;
+    text-align: center;
+}
+.blue{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+}
+.red{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    position:absolute;
+    margin-top:22px;
+    margin-left:24px;
+}
+.black{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position:absolute;
+    margin-top:30px;
+    margin-left:27px;
+    
+}
+.green{
+    width: 130px;
+    height: 130px;
+    background-color: green;
+    position:absolute;
+    margin-top:33px;
+    margin-left:35px;
+}
+.yellow{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    position:absolute;
+    margin-top:24px;
+    margin-left:26px;
+}
+/* Exercicio 2 */
+.top-left{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+}
+.top-right{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.bottom-left{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.bottom-right{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+/* exercicio 3 */
+.radius{
+    
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 20px;
+
+    
+}
+
+.scroll{
+    background-color:white;
+    color: black;
+    margin-top: 12px;
+    font-size: 30px;
+    overflow-y: scroll;
+    height: 200px;
+    border: 3px solid red;
+    
+}
+section a{
+    font-size: 30px;
+    color: blue;
+    text-decoration: none;
+    padding: 3px;
+    margin: 10px;}
+
+/* Exercicio4 */
+.geral{
+    margin: 0;
+    padding: 0;
+    
+}
+.quad1{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color:black;
+    
+}
+.quad2{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: black;
+}
+.quad3{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: black;
+    
+}
+.quad1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+  
+
+}
+.quad2{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+   
+
+}
+.quad7{
+    background-color: rgb(0, 0, 0);
+   position: fixed;
+   width: 100px;
+   height: 100px;
+   bottom: 0px;
+   right: 0px;
+}
+.quad8{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100px;
+    height: 100px;
+   bottom: 0px;
+    right: 105px;
+}
+
+.quad9{
+   background-color: rgb(0, 0, 0);
+   position: fixed;
+   width: 100px;
+   height: 100px;
+   bottom: 0px;
+   right: 210px;
+}
+.quad10{
+    background-color: rgb(0, 0, 0);
+   position: fixed;
+   width: 100px;
+   height: 100px;
+ bottom: 210px;
+   right: 0px;
+}
+.quad11{
+    background-color: rgb(0, 0, 0);
+   position: fixed;
+   width: 100px;
+   height: 100px;
+ bottom: 105px;
+   right: 0px;
+}
+.quad12{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100px;
+    height: 100px;
+   bottom: 105px;
+    right: 105px;
+}
